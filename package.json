@@ -2,10 +2,15 @@
   "name": "basic",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://mthorrell.github.io/",
   "dependencies": {
+    "@tensorflow/tfjs": "^1.7.2",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "blueimp-load-image": "^3.0.0",
+    "d3": "^5.15.1",
+    "list-react-files": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1"
@@ -30,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

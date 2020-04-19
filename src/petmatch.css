@@ -1,0 +1,21 @@
+div.mover {
+  background-color: aliceblue;
+  width: 500px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+img {
+  margin: 10px;
+  vertical-align: middle;
+}
+
+div.normal {
+  width: 500px;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
