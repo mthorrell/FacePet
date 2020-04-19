@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Face-Ventura-Pet-Detector-react-app/static/css/main.2021f3fd.chunk.css",
+    "main.js": "/Face-Ventura-Pet-Detector-react-app/static/js/main.ded0a97e.chunk.js",
+    "main.js.map": "/Face-Ventura-Pet-Detector-react-app/static/js/main.ded0a97e.chunk.js.map",
+    "runtime-main.js": "/Face-Ventura-Pet-Detector-react-app/static/js/runtime-main.f1bd7053.js",
+    "runtime-main.js.map": "/Face-Ventura-Pet-Detector-react-app/static/js/runtime-main.f1bd7053.js.map",
+    "static/js/2.e7bf7c71.chunk.js": "/Face-Ventura-Pet-Detector-react-app/static/js/2.e7bf7c71.chunk.js",
+    "static/js/2.e7bf7c71.chunk.js.map": "/Face-Ventura-Pet-Detector-react-app/static/js/2.e7bf7c71.chunk.js.map",
+    "index.html": "/Face-Ventura-Pet-Detector-react-app/index.html",
+    "precache-manifest.819359e549f90b25fa35821f53f326fb.js": "/Face-Ventura-Pet-Detector-react-app/precache-manifest.819359e549f90b25fa35821f53f326fb.js",
+    "service-worker.js": "/Face-Ventura-Pet-Detector-react-app/service-worker.js",
+    "static/css/main.2021f3fd.chunk.css.map": "/Face-Ventura-Pet-Detector-react-app/static/css/main.2021f3fd.chunk.css.map",
+    "static/js/2.e7bf7c71.chunk.js.LICENSE.txt": "/Face-Ventura-Pet-Detector-react-app/static/js/2.e7bf7c71.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f1bd7053.js",
+    "static/js/2.e7bf7c71.chunk.js",
+    "static/css/main.2021f3fd.chunk.css",
+    "static/js/main.ded0a97e.chunk.js"
+  ]
+}
