@@ -2,7 +2,6 @@
   "name": "basic",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mthorrell.github.io/Face-Ventura-Pet-Detector-react-app",
   "dependencies": {
     "@tensorflow/tfjs": "^1.7.2",
     "@testing-library/jest-dom": "^4.2.4",

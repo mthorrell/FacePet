@@ -35,17 +35,19 @@ class App extends Component {
   }
 
   imgUploaded = (e) => {
-    loadImage(
-      e.target.files[0],
-      (img) => {
-        console.log(img);
-        img.toBlob((blob) => {
-          var urlhere = URL.createObjectURL(blob);
-          this.setState({ inputURL: urlhere });
-        });
-      },
-      { noRevoke: true, orientation: true }
-    );
+    // loadImage(
+    //   e.target.files[0],
+    //   (img) => {
+    //     console.log(img);
+    //     img.toBlob((blob) => {
+    //       var urlhere = URL.createObjectURL(blob);
+    //       this.setState({ inputURL: urlhere });
+    //     });
+    //   },
+    //   { noRevoke: true, orientation: true }
+    // );
+
+    this.setState({ inputURL: URL.createObjectURL(e.target.files[0]) });
   };
 
   handleLoad = async (e) => {
