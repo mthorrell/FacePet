@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.2021f3fd.chunk.css",
-    "main.js": "/static/js/main.393ecc95.chunk.js",
-    "main.js.map": "/static/js/main.393ecc95.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ed00a22d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ed00a22d.js.map",
-    "static/js/2.b84f0578.chunk.js": "/static/js/2.b84f0578.chunk.js",
-    "static/js/2.b84f0578.chunk.js.map": "/static/js/2.b84f0578.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f33b851fd120e94947cdd1250a1dd942.js": "/precache-manifest.f33b851fd120e94947cdd1250a1dd942.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2021f3fd.chunk.css.map": "/static/css/main.2021f3fd.chunk.css.map",
-    "static/js/2.b84f0578.chunk.js.LICENSE.txt": "/static/js/2.b84f0578.chunk.js.LICENSE.txt"
+    "main.css": "/Face-Ventura-Pet-Detector-react-app/static/css/main.2021f3fd.chunk.css",
+    "main.js": "/Face-Ventura-Pet-Detector-react-app/static/js/main.f0f77610.chunk.js",
+    "main.js.map": "/Face-Ventura-Pet-Detector-react-app/static/js/main.f0f77610.chunk.js.map",
+    "runtime-main.js": "/Face-Ventura-Pet-Detector-react-app/static/js/runtime-main.f1bd7053.js",
+    "runtime-main.js.map": "/Face-Ventura-Pet-Detector-react-app/static/js/runtime-main.f1bd7053.js.map",
+    "static/js/2.b84f0578.chunk.js": "/Face-Ventura-Pet-Detector-react-app/static/js/2.b84f0578.chunk.js",
+    "static/js/2.b84f0578.chunk.js.map": "/Face-Ventura-Pet-Detector-react-app/static/js/2.b84f0578.chunk.js.map",
+    "index.html": "/Face-Ventura-Pet-Detector-react-app/index.html",
+    "precache-manifest.1b91e3a3f9020989c5f1069c3ccfc160.js": "/Face-Ventura-Pet-Detector-react-app/precache-manifest.1b91e3a3f9020989c5f1069c3ccfc160.js",
+    "service-worker.js": "/Face-Ventura-Pet-Detector-react-app/service-worker.js",
+    "static/css/main.2021f3fd.chunk.css.map": "/Face-Ventura-Pet-Detector-react-app/static/css/main.2021f3fd.chunk.css.map",
+    "static/js/2.b84f0578.chunk.js.LICENSE.txt": "/Face-Ventura-Pet-Detector-react-app/static/js/2.b84f0578.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed00a22d.js",
+    "static/js/runtime-main.f1bd7053.js",
     "static/js/2.b84f0578.chunk.js",
     "static/css/main.2021f3fd.chunk.css",
-    "static/js/main.393ecc95.chunk.js"
+    "static/js/main.f0f77610.chunk.js"
   ]
 }
