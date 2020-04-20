@@ -34,14 +34,14 @@ class PetMatch extends Component {
         <span>
           <img
             src={inputSRC}
-            width="200"
+            width="35%"
             style={{
               display: inputready ? "inline" : "none",
             }}
           />
           <img
             src={info.src}
-            width="200"
+            width="35%"
             style={{ display: petready ? "" : "none" }}
           />
         </span>

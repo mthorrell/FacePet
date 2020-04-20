@@ -105,14 +105,6 @@ class App extends Component {
     return distance;
   };
 
-  divMouseOver = (e) => {
-    e.target.className = "mover";
-  };
-
-  divMouseOut = (e) => {
-    e.target.className = "border";
-  };
-
   zipInput = (e) => {
     console.log("zipinput", this.zipref.value.substr(0, 3));
     var newdat = this.zipdata.filter((d) => {
@@ -193,7 +185,7 @@ class App extends Component {
             <img
               src={this.state.inputURL}
               onLoad={this.handleLoad}
-              width="100"
+              width="15%"
             />{" "}
             with pets available for adoption.
           </span>

@@ -45,7 +45,7 @@ img {
 }
 
 div.border {
-  width: 500px;
+  width: 60%;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -54,7 +54,7 @@ div.border {
 
 div.mover {
   background-color: aliceblue;
-  width: 500px;
+  width: 60%;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
