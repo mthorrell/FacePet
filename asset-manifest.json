@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/FacePet/static/css/main.fc4f5dc0.chunk.css",
-    "main.js": "/FacePet/static/js/main.9a5ca6b6.chunk.js",
-    "main.js.map": "/FacePet/static/js/main.9a5ca6b6.chunk.js.map",
+    "main.js": "/FacePet/static/js/main.d34a9e9d.chunk.js",
+    "main.js.map": "/FacePet/static/js/main.d34a9e9d.chunk.js.map",
     "runtime-main.js": "/FacePet/static/js/runtime-main.6ee8f81b.js",
     "runtime-main.js.map": "/FacePet/static/js/runtime-main.6ee8f81b.js.map",
     "static/js/2.b84f0578.chunk.js": "/FacePet/static/js/2.b84f0578.chunk.js",
     "static/js/2.b84f0578.chunk.js.map": "/FacePet/static/js/2.b84f0578.chunk.js.map",
     "index.html": "/FacePet/index.html",
-    "precache-manifest.bf8e2d95018038d3421817955909d7fe.js": "/FacePet/precache-manifest.bf8e2d95018038d3421817955909d7fe.js",
+    "precache-manifest.d0076a9bf7c8d33a78b80bf41fe16ade.js": "/FacePet/precache-manifest.d0076a9bf7c8d33a78b80bf41fe16ade.js",
     "service-worker.js": "/FacePet/service-worker.js",
     "static/css/main.fc4f5dc0.chunk.css.map": "/FacePet/static/css/main.fc4f5dc0.chunk.css.map",
     "static/js/2.b84f0578.chunk.js.LICENSE.txt": "/FacePet/static/js/2.b84f0578.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.6ee8f81b.js",
     "static/js/2.b84f0578.chunk.js",
     "static/css/main.fc4f5dc0.chunk.css",
-    "static/js/main.9a5ca6b6.chunk.js"
+    "static/js/main.d34a9e9d.chunk.js"
   ]
 }
