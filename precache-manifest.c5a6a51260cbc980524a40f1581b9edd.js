@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fb1d47b5f20db37cfb16b6d36a680f93",
+    "revision": "9f40be0c9b4dd3fa8b6c342ef3f5fd45",
     "url": "/FacePet/index.html"
   },
   {
