@@ -1,6 +1,7 @@
 div.mover {
   background-color: aliceblue;
-  width: 60%;
+  width: 500%;
+  max-width: 90%;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
@@ -13,7 +14,8 @@ img {
 }
 
 div.normal {
-  width: 60%;
+  width: 500px;
+  max-width: 90%;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
