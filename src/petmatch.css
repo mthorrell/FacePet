@@ -1,23 +1,26 @@
 div.mover {
   background-color: aliceblue;
-  width: 500%;
-  max-width: 90%;
+  width: 90%;
+  max-width: 600px;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 5px;
+  position: relative;
 }
 
-img {
+img.inRow {
   margin: 10px;
+  width: 40%;
   vertical-align: middle;
 }
 
 div.normal {
-  width: 500px;
-  max-width: 90%;
+  width: 90%;
+  max-width: 600px;
   margin: auto;
   margin-top: 5px;
   margin-bottom: 5px;
   padding: 5px;
+  position: relative;
 }

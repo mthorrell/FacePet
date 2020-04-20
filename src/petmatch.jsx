@@ -4,10 +4,6 @@ import "./petmatch.css";
 class PetMatch extends Component {
   constructor(props) {
     super(props);
-
-    this.dr = undefined;
-    this.divref = (e) => (this.dr = e);
-
     this.state = {
       mouseOver: false,
     };
@@ -33,20 +29,19 @@ class PetMatch extends Component {
         className={this.state.mouseOver ? "mover" : "normal"}
         onMouseOver={this.mov}
         onMouseLeave={this.mlef}
-        ref={this.divref}
       >
         <h2 style={{ display: petready ? "" : "none" }}>{String(info.name)}</h2>
         <span>
           <img
+            className="inRow"
             src={inputSRC}
-            width={this.dr.style.width * 0.4}
             style={{
               display: inputready ? "inline" : "none",
             }}
           />
           <img
+            className="inRow"
             src={info.src}
-            width={this.dr.style.width * 0.4}
             style={{ display: petready ? "" : "none" }}
           />
         </span>
