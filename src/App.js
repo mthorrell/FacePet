@@ -4,7 +4,6 @@ import Model from "./Model";
 import Parray from "./parray.jsx";
 import * as d3 from "d3";
 import PetMatch from "./petmatch";
-import * as loadImage from "blueimp-load-image";
 
 class App extends Component {
   constructor(props) {
@@ -21,8 +20,6 @@ class App extends Component {
     this.zipref = undefined;
     this.zip = (e) => (this.zipref = e);
 
-    //this.handleLoad = this.handleLoad.bind(this);
-
     this.state = {
       inputURL: null,
       pdata: props.pdata,
@@ -35,18 +32,6 @@ class App extends Component {
   }
 
   imgUploaded = (e) => {
-    // loadImage(
-    //   e.target.files[0],
-    //   (img) => {
-    //     console.log(img);
-    //     img.toBlob((blob) => {
-    //       var urlhere = URL.createObjectURL(blob);
-    //       this.setState({ inputURL: urlhere });
-    //     });
-    //   },
-    //   { noRevoke: true, orientation: true }
-    // );
-
     this.setState({ inputURL: URL.createObjectURL(e.target.files[0]) });
   };
 
@@ -108,30 +93,30 @@ class App extends Component {
   zipInput = (e) => {
     console.log("zipinput", this.zipref.value.substr(0, 3));
     var newdat = this.zipdata.filter((d) => {
-      return d.searchzip.substr(0, 5) == this.zipref.value.substr(0, 5);
+      return d.searchzip.substr(0, 5) === this.zipref.value.substr(0, 5);
     });
 
-    if (newdat.length == 0) {
+    if (newdat.length === 0) {
       newdat = this.zipdata.filter((d) => {
-        return d.searchzip.substr(0, 4) == this.zipref.value.substr(0, 4);
+        return d.searchzip.substr(0, 4) === this.zipref.value.substr(0, 4);
       });
     }
 
-    if (newdat.length == 0) {
+    if (newdat.length === 0) {
       newdat = this.zipdata.filter((d) => {
-        return d.searchzip.substr(0, 3) == this.zipref.value.substr(0, 3);
+        return d.searchzip.substr(0, 3) === this.zipref.value.substr(0, 3);
       });
     }
 
-    if (newdat.length == 0) {
+    if (newdat.length === 0) {
       newdat = this.zipdata.filter((d) => {
-        return d.searchzip.substr(0, 2) == this.zipref.value.substr(0, 2);
+        return d.searchzip.substr(0, 2) === this.zipref.value.substr(0, 2);
       });
     }
 
-    if (newdat.length == 0) {
+    if (newdat.length === 0) {
       newdat = this.zipdata.filter((d) => {
-        return d.searchzip.substr(0, 1) == this.zipref.value.substr(0, 1);
+        return d.searchzip.substr(0, 1) === this.zipref.value.substr(0, 1);
       });
     }
 
@@ -184,6 +169,7 @@ class App extends Component {
             Matching{" "}
             <img
               src={this.state.inputURL}
+              alt=""
               onLoad={this.handleLoad}
               width="15%"
             />{" "}

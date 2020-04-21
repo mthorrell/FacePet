@@ -10,6 +10,8 @@
     "@testing-library/user-event": "^7.2.1",
     "blueimp-load-image": "^3.0.0",
     "d3": "^5.15.1",
+    "html2canvas": "^1.0.0-rc.5",
+    "jquery": "^3.5.0",
     "list-react-files": "^0.2.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",

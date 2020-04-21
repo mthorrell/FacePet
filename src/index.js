@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import * as tf from "@tensorflow/tfjs";
 
 function addKey(e, i) {
   e.key = i;
-  e.src = e.src; // + "?" + new Date().getTime();
+  //e.src = e.src; // + "?" + new Date().getTime();
   e.emb = null;
   e.dist = NaN;
   return e;

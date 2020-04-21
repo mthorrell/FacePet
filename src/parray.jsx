@@ -1,5 +1,3 @@
-import Model from "./Model";
-
 class Parray {
   constructor(arr, fnc, mdlref) {
     this.model = mdlref;
@@ -31,8 +29,8 @@ class Parray {
 
   createImg = (a) => {
     var img = document.createElement("img");
+    img.crossOrigin = "anonymous";
     img.src = a.src + "?" + new Date().getTime();
-    img.crossOrigin = "Anonymous";
     img.onload = this.totalLoaded;
     return img;
   };

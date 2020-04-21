@@ -21,7 +21,6 @@ class Model {
       20,
       1,
     ]);
-
     var output = mdl.predict(img_t_bw).arraySync()[0];
     return output;
   };
@@ -39,7 +38,7 @@ class Model {
 
     // add all the tensors together, as they should all be the same dimensions.
     var gray = r.mul(rFactor).add(g.mul(gFactor)).add(b.mul(bFactor));
-    var gray = gray.mul(tf.scalar(1.0 / 255.0));
+    gray = gray.mul(tf.scalar(1.0 / 255.0));
 
     return gray;
   }

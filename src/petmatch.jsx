@@ -35,13 +35,16 @@ class PetMatch extends Component {
           <img
             className="inRow"
             src={inputSRC}
+            alt=""
             style={{
               display: inputready ? "inline" : "none",
             }}
           />
           <img
             className="inRow"
-            src={info.src}
+            alt={petready ? info.name : ""}
+            crossOrigin="anonymous"
+            src={info.src + "?foo=bar"}
             style={{ display: petready ? "" : "none" }}
           />
         </span>
@@ -58,7 +61,7 @@ class PetMatch extends Component {
           </div>
           <span>
             {petready ? (
-              <a href={info.link} target="_blank">
+              <a href={info.link} target="_blank" rel="noopener noreferrer">
                 {" "}
                 See more of {String(info.name)}
               </a>
