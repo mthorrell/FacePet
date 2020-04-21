@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/FacePet/static/css/main.fab3720b.chunk.css",
-    "main.js": "/FacePet/static/js/main.474aab1d.chunk.js",
-    "main.js.map": "/FacePet/static/js/main.474aab1d.chunk.js.map",
+    "main.js": "/FacePet/static/js/main.f22a731a.chunk.js",
+    "main.js.map": "/FacePet/static/js/main.f22a731a.chunk.js.map",
     "runtime-main.js": "/FacePet/static/js/runtime-main.6ee8f81b.js",
     "runtime-main.js.map": "/FacePet/static/js/runtime-main.6ee8f81b.js.map",
-    "static/js/2.bc811a20.chunk.js": "/FacePet/static/js/2.bc811a20.chunk.js",
-    "static/js/2.bc811a20.chunk.js.map": "/FacePet/static/js/2.bc811a20.chunk.js.map",
+    "static/js/2.5ccf57c8.chunk.js": "/FacePet/static/js/2.5ccf57c8.chunk.js",
+    "static/js/2.5ccf57c8.chunk.js.map": "/FacePet/static/js/2.5ccf57c8.chunk.js.map",
     "index.html": "/FacePet/index.html",
-    "precache-manifest.c45536b4fafa1243bdbe1f7ca919df33.js": "/FacePet/precache-manifest.c45536b4fafa1243bdbe1f7ca919df33.js",
+    "precache-manifest.181f9f278640139d22899a57c43fa092.js": "/FacePet/precache-manifest.181f9f278640139d22899a57c43fa092.js",
     "service-worker.js": "/FacePet/service-worker.js",
     "static/css/main.fab3720b.chunk.css.map": "/FacePet/static/css/main.fab3720b.chunk.css.map",
-    "static/js/2.bc811a20.chunk.js.LICENSE.txt": "/FacePet/static/js/2.bc811a20.chunk.js.LICENSE.txt"
+    "static/js/2.5ccf57c8.chunk.js.LICENSE.txt": "/FacePet/static/js/2.5ccf57c8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.6ee8f81b.js",
-    "static/js/2.bc811a20.chunk.js",
+    "static/js/2.5ccf57c8.chunk.js",
     "static/css/main.fab3720b.chunk.css",
-    "static/js/main.474aab1d.chunk.js"
+    "static/js/main.f22a731a.chunk.js"
   ]
 }
