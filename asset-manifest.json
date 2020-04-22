@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.fab3720b.chunk.css",
-    "main.js": "/static/js/main.9c26048c.chunk.js",
-    "main.js.map": "/static/js/main.9c26048c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ed00a22d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ed00a22d.js.map",
-    "static/css/2.89f067aa.chunk.css": "/static/css/2.89f067aa.chunk.css",
-    "static/js/2.3333791e.chunk.js": "/static/js/2.3333791e.chunk.js",
-    "static/js/2.3333791e.chunk.js.map": "/static/js/2.3333791e.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.830abf4e3f747c2bdc12e4368f16052c.js": "/precache-manifest.830abf4e3f747c2bdc12e4368f16052c.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.89f067aa.chunk.css.map": "/static/css/2.89f067aa.chunk.css.map",
-    "static/css/main.fab3720b.chunk.css.map": "/static/css/main.fab3720b.chunk.css.map",
-    "static/js/2.3333791e.chunk.js.LICENSE.txt": "/static/js/2.3333791e.chunk.js.LICENSE.txt"
+    "main.css": "/FacePet/static/css/main.fab3720b.chunk.css",
+    "main.js": "/FacePet/static/js/main.5679de25.chunk.js",
+    "main.js.map": "/FacePet/static/js/main.5679de25.chunk.js.map",
+    "runtime-main.js": "/FacePet/static/js/runtime-main.6ee8f81b.js",
+    "runtime-main.js.map": "/FacePet/static/js/runtime-main.6ee8f81b.js.map",
+    "static/css/2.89f067aa.chunk.css": "/FacePet/static/css/2.89f067aa.chunk.css",
+    "static/js/2.33656217.chunk.js": "/FacePet/static/js/2.33656217.chunk.js",
+    "static/js/2.33656217.chunk.js.map": "/FacePet/static/js/2.33656217.chunk.js.map",
+    "index.html": "/FacePet/index.html",
+    "precache-manifest.ff57451220b1d2580e9f37c2184b2cb5.js": "/FacePet/precache-manifest.ff57451220b1d2580e9f37c2184b2cb5.js",
+    "service-worker.js": "/FacePet/service-worker.js",
+    "static/css/2.89f067aa.chunk.css.map": "/FacePet/static/css/2.89f067aa.chunk.css.map",
+    "static/css/main.fab3720b.chunk.css.map": "/FacePet/static/css/main.fab3720b.chunk.css.map",
+    "static/js/2.33656217.chunk.js.LICENSE.txt": "/FacePet/static/js/2.33656217.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.ed00a22d.js",
+    "static/js/runtime-main.6ee8f81b.js",
     "static/css/2.89f067aa.chunk.css",
-    "static/js/2.3333791e.chunk.js",
+    "static/js/2.33656217.chunk.js",
     "static/css/main.fab3720b.chunk.css",
-    "static/js/main.9c26048c.chunk.js"
+    "static/js/main.5679de25.chunk.js"
   ]
 }
