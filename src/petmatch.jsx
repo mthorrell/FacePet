@@ -1,9 +1,19 @@
 import React, { Component } from "react";
 import "./petmatch.css";
+import {
+  FacebookShareButton,
+  FacebookIcon,
+  TwitterShareButton,
+  TwitterIcon,
+} from "react-share";
 
 class PetMatch extends Component {
   constructor(props) {
     super(props);
+
+    this.dv = undefined;
+    this.mainDiv = (e) => (this.dv = e);
+
     this.state = {
       mouseOver: false,
     };
@@ -29,7 +39,30 @@ class PetMatch extends Component {
         className={this.state.mouseOver ? "mover" : "normal"}
         onMouseOver={this.mov}
         onMouseLeave={this.mlef}
+        ref={this.mainDiv}
       >
+        <FacebookShareButton
+          url="https://mthorrell.github.io/FacePet"
+          style={{
+            position: "absolute",
+            bottom: "5px",
+            right: "5px",
+            display: petready & this.state.mouseOver ? "" : "none",
+          }}
+        >
+          <FacebookIcon size={32} round />
+        </FacebookShareButton>
+        <TwitterShareButton
+          url="https://mthorrell.github.io/FacePet"
+          style={{
+            position: "absolute",
+            bottom: "5px",
+            right: "40px",
+            display: petready & this.state.mouseOver ? "" : "none",
+          }}
+        >
+          <TwitterIcon size={32} round />
+        </TwitterShareButton>
         <h2 style={{ display: petready ? "" : "none" }}>{String(info.name)}</h2>
         <span>
           <img
@@ -44,7 +77,7 @@ class PetMatch extends Component {
             className="inRow"
             alt={petready ? info.name : ""}
             crossOrigin="anonymous"
-            src={info.src + "?foo=bar"}
+            src={info.src + "?" + new Date().getTime()}
             style={{ display: petready ? "" : "none" }}
           />
         </span>

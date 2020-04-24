@@ -140,7 +140,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1>Face Ventura Pet Detector</h1>
+          <h1 style={{ fontWeight: "bold" }}>Face Ventura Pet Detector</h1>
           Use Facial Recognition to find shelter pets that look like you!
           <br /> <br /> Upload your photo:{" "}
           <input type="file" onChange={this.imgUploaded} />
