@@ -28,20 +28,23 @@ function getRandomSubarray(arr, size) {
   return shuffled.slice(min);
 }
 
-var rawzip = require("./data/petfinder_out_zip.json");
-rawzip = rawzip.map((e, i) => addKey(e, i));
-//var idx = tf.randomUniform([50]).mul(rawzip.length).floor().arraySync();
-var rawdata = getRandomSubarray(rawzip, 20);
+async function loadPetData(){
+  var url = 'https://facepet.s3.amazonaws.com/pet_data.json';
+  var rawzip = await fetch(url).then(response => response.json())
+  rawzip = rawzip.map((e, i) => addKey(e, i));
+  var rawdata = getRandomSubarray(rawzip, 20);
 
-//var rawdata = require("./data/petfinder_out.json");
-//rawdata = rawdata.map((e, i) => addKey(e, i));
+  ReactDOM.render(
+    <React.StrictMode>
+      <App pdata={rawdata} zipdata={rawzip} />
+    </React.StrictMode>,
+    document.getElementById("root")
+  );
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App pdata={rawdata} zipdata={rawzip} />
-  </React.StrictMode>,
-  document.getElementById("root")
-);
+loadPetData()
+
+
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
