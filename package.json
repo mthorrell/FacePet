@@ -9,7 +9,7 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "blueimp-load-image": "^3.0.0",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "^5.0.0",
     "d3": "^5.15.1",
     "html2canvas": "^1.0.0-rc.5",
     "jquery": "^3.5.0",
